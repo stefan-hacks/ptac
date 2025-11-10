@@ -28,6 +28,7 @@ sudo chmod +x /usr/local/bin/ptac
 sudo curl -o /usr/local/share/man/man1/ptac.1 https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac.1
 sudo mandb
 ```
+```
 
 ### Manual Installation
 
