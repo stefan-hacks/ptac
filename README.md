@@ -21,51 +21,12 @@ adding specialized prepending capabilities.
 
 ```bash
 # Download the ptac script
-sudo curl -o /usr/local/bin/ptac https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac
-sudo chmod +x /usr/local/bin/ptac
+sudo curl -o $HOME/.local/bin/ptac https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac
+sudo chmod +x $HOME/.local/bin/ptac
 
-# Download and install the manpage
-sudo curl -o /usr/local/share/man/man1/ptac.1 https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac.1
-sudo mandb
 ```
 ```
 
-### Manual Installation
-
-1. **Download the script**:
-```bash
-sudo nano /usr/local/bin/ptac
-```
-
-2. **Copy the ptac script content** (from the provided bash script) and save it.
-
-3. **Make it executable**:
-```bash
-sudo chmod +x /usr/local/bin/ptac
-```
-
-4. **Install the manpage**:
-```bash
-# Create man directory if it doesn't exist
-sudo mkdir -p /usr/local/share/man/man1
-
-# Copy the manpage
-sudo nano /usr/local/share/man/man1/ptac.1
-```
-
-5. **Copy the manpage content** (from the provided ptac.1 above) and save it.
-
-6. **Update the man database**:
-```bash
-sudo mandb
-```
-
-### Verification
-
-Verify your installation:
-```bash
-ptac --version
-man ptac
 ```
 
 ## Usage
@@ -159,12 +120,6 @@ done
 | `--help` | Display help information |
 | `--version` | Show version information |
 
-## Documentation
-
-### View Manpage
-```bash
-man ptac
-```
 
 ### Get Help
 ```bash
@@ -189,19 +144,6 @@ echo $PATH
 export PATH="/usr/local/bin:$PATH"
 ```
 
-### Manpage Not Found
-```bash
-# Update man database
-sudo mandb
-
-# Check manpath
-man -w ptac
-```
-
-### Permission Denied
-```bash
-# Ensure executable permissions
-sudo chmod +x /usr/local/bin/ptac
 ```
 
 ## Contributing
