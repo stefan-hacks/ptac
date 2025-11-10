@@ -21,7 +21,7 @@ adding specialized prepending capabilities.
 
 ```bash
 # Download the ptac script
-curl -o $HOME/.local/bin/ptac https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac
+curl -o $HOME/.local/bin/ptac https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac.sh  
 chmod +x $HOME/.local/bin/ptac
 
 ```
@@ -141,7 +141,7 @@ ptac --help
 # Ensure /usr/local/bin is in your PATH
 echo $PATH
 # If missing, add to your ~/.bashrc or ~/.zshrc:
-export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 ```
 
 ```
