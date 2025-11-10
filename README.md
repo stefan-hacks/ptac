@@ -18,11 +18,11 @@
 
 ```bash
 # Download the ptac script
-sudo curl -o /usr/local/bin/ptac https://raw.githubusercontent.com/yourusername/ptac/main/ptac
+sudo curl -o /usr/local/bin/ptac https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac
 sudo chmod +x /usr/local/bin/ptac
 
 # Download and install the manpage
-sudo curl -o /usr/local/share/man/man1/ptac.1 https://raw.githubusercontent.com/yourusername/ptac/main/ptac.1
+sudo curl -o /usr/local/share/man/man1/ptac.1 https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac.1
 sudo mandb
 ```
 
