@@ -1,7 +1,10 @@
 ```markdown
 # PTAC - The Prepending CAT Solution
 
-`ptac` is a powerful command-line tool that extends the functionality of the classic `cat` command with a focus on prepending content to files or standard output. It maintains full compatibility with all standard `cat` options while adding specialized prepending capabilities.
+`ptac` is a powerful command-line tool that extends the functionality 
+of the classic `cat` command with a focus on prepending content to files or standard output. 
+It maintains full compatibility with all standard `cat` options while 
+adding specialized prepending capabilities.
 
 ## Features
 
