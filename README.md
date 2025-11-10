@@ -21,8 +21,8 @@ adding specialized prepending capabilities.
 
 ```bash
 # Download the ptac script
-sudo curl -o $HOME/.local/bin/ptac https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac
-sudo chmod +x $HOME/.local/bin/ptac
+curl -o $HOME/.local/bin/ptac https://raw.githubusercontent.com/stefan-hacks/ptac/main/ptac
+chmod +x $HOME/.local/bin/ptac
 
 ```
 ```
