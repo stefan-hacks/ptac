@@ -141,7 +141,7 @@ ptac --help
 # Ensure /usr/local/bin is in your PATH
 echo $PATH
 # If missing, add to your ~/.bashrc or ~/.zshrc:
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:$HOME/.local/bin"
 ```
 
 ```
